@@ -67,3 +67,4 @@ C:\Users\Thuyen Pham\source\repos\GroupProject\GroupProject\bin\Microsoft.CodeDo
 C:\Users\Thuyen Pham\source\repos\GroupProject\GroupProject\obj\Debug\GroupProject.csproj.CopyComplete
 C:\Users\Thuyen Pham\source\repos\GroupProject\GroupProject\obj\Debug\GroupProject.dll
 C:\Users\Thuyen Pham\source\repos\GroupProject\GroupProject\obj\Debug\GroupProject.pdb
+C:\Users\Thuyen Pham\source\repos\GroupProject\GroupProject\obj\Debug\GroupProject.csprojAssemblyReference.cache

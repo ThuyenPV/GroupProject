@@ -83,7 +83,7 @@
                                             <p>$5</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="#" class="btn_3">add to cart</a>
+                                            <a href="Cart.aspx" class="btn_3">add to cart</a>
                                         </div>
                                     </div>
                                 </div>
