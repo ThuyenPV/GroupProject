@@ -51,26 +51,41 @@
                 <div class="product_image_area">
                     <div class="container">
                         <div class="row justify-content-center">
+
                             <div class="col-lg-12">
                                 <div class="product_img_slide owl-carousel">
                                     <div class="single_product_img">
-                                        <img src="assets/img/product/single_product.png" alt="#" class="img-fluid">
+                                        <img src='<%#Eval("image")%>' alt="<%#Eval("product_name") %>" class="img-fluid">
                                     </div>
                                     <div class="single_product_img">
-                                        <img src="assets/img/product/single_product.png" alt="#" class="img-fluid">
+                                        <img src='<%#Eval("image")%>' alt="<%#Eval("product_name") %>" class="img-fluid">
                                     </div>
                                     <div class="single_product_img">
-                                        <img src="assets/img/product/single_product.png" alt="#" class="img-fluid">
+                                        <img src='<%#Eval("image")%>' alt="<%#Eval("product_name") %>" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
+
+
                             <div class="col-lg-8">
                                 <div class="single_product_text text-center">
                                     <h3>Foam filling cotton slow
                                     <br>
                                         rebound pillows</h3>
-                                    <p>
-                                        Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources. Credibly innovate granular internal or “organic” sources whereas high standards in web-readiness. Credibly innovate granular internal or organic sources whereas high standards in web-readiness. Energistically scale future-proof core competencies vis-a-vis impactful experiences. Dramatically synthesize integrated schemas. with optimal networks.
+                                    <p align="center">
+                                        <asp:DetailsView ID="DetailView" runat="server" Height="300px" Width="700px" AutoGenerateRows="False" BackColor="White" BorderColor="#CCCCCC" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Horizontal">
+                                            <EditRowStyle BackColor="#CC3333" Font-Bold="True" ForeColor="White" />
+                                            <Fields>
+                                                <asp:BoundField DataField="product_name" HeaderText="Tên sản phẩm" ReadOnly="True" SortExpression="product_name" />
+                                                <asp:BoundField DataField="brand_name" HeaderText="Nhãn hiệu" SortExpression="brand_name" />
+                                                <asp:BoundField DataField="category_name" HeaderText="Loại sản phẩm" ReadOnly="True" SortExpression="category_name" />
+                                                <asp:BoundField DataField="model_year" HeaderText="Mẫu năm" ReadOnly="True" SortExpression="model_year" />
+                                                <asp:BoundField DataField="list_price" HeaderText="Giá thành" ReadOnly="True" SortExpression="list_price" />
+                                            </Fields>
+                                            <FooterStyle BackColor="#CCCC99" ForeColor="Black" />
+                                            <HeaderStyle BackColor="#333333" Font-Bold="True" ForeColor="White" />
+                                            <PagerStyle BackColor="White" ForeColor="Black" HorizontalAlign="Right" />
+                                        </asp:DetailsView>
                                     </p>
                                     <div class="card_area">
                                         <div class="product_count_area">
